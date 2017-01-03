@@ -8,7 +8,7 @@ import {
 import Relay from 'react-relay'
 
 
- class PokemonPage extends Component {
+class PokemonPage extends Component {
   render() {
 
     return (
@@ -19,7 +19,7 @@ import Relay from 'react-relay'
   }
 }
 
- export default Relay.createContainer(
+export default Relay.createContainer(
   PokemonPage,
   {
     fragments: {

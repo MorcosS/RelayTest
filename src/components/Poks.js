@@ -29,7 +29,7 @@ import PokemonPage from './PokemonPage';
 }
 
 
- export default Relay.createContainer(
+export default  Relay.createContainer(
   Poks,
   {
     fragments: {
