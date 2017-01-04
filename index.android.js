@@ -23,12 +23,12 @@ Relay.injectNetworkLayer(
 );
 
 export default class TestThree extends Component {
-  render() {
+  render(): void {
     return (
       <View style={styles.container}>
         <RootContainer
           Component={Poks}
-          route={AppRoute}
+          route={new AppRoute()}
         />
       </View>
     );

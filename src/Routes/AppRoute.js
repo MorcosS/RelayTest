@@ -3,7 +3,6 @@ import Relay, {
 } from 'react-relay';
 
 export default class AppRoute extends Route {
-
   static queries = {
     viewer: () => Relay.QL`query { viewer }`,
   };
